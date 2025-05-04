@@ -8,7 +8,7 @@ export default defineConfig(({ mode }) => ({
     host: "::",
     port: 8080,
   },
-  base: "https://TVSSSRIPAD.github.io/",
+  base: "/",
   plugins: [
     react(),
   ].filter(Boolean),
