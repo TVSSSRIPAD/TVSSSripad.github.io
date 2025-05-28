@@ -56,7 +56,7 @@ export default function Projects() {
       <div className="text-center">
         <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">My Projects</h1>
         <p className="mt-4 text-muted-foreground">
-          A collection of my recent work and side projects.<br/>
+          A collection of my personal pet projects.<br/>
         </p>
       </div>
 

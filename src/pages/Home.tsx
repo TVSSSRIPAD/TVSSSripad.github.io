@@ -11,6 +11,7 @@ export default function Home() {
             Hello, I'm <span className="text-primary">Sripad</span>
           </h1>
           <p className="fade-in fade-in-delay-1 leading-normal text-muted-foreground sm:text-xl sm:leading-8">
+            I am currently working as a SDE-2 at amazon. <br/>
             I'm a full-stack software developer with a passion for building modern web applications. <br/>
             Welcome to my portfolio.
           </p>
