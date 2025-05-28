@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -7,46 +6,46 @@ import { ToggleGroup, ToggleGroupItem } from "@/components/ui/toggle-group";
 import { Grid2x2, List } from "lucide-react";
 
 const projects = [
-  // {
-  //   title: "Project One",
-  //   description: "A modern web application built with React and TypeScript",
-  //   tags: ["React", "TypeScript", "Tailwind CSS"],
-  //   link: "https://github.com/yourusername/project-one",
-  //   live: "https://project-one.example.com",
-  // },
-  // {
-  //   title: "Project Two",
-  //   description: "A full-stack application with Node.js backend and MongoDB",
-  //   tags: ["Node.js", "Express", "MongoDB", "React"],
-  //   link: "https://github.com/yourusername/project-two",
-  //   live: "https://project-two.example.com",
-  // },
-  // {
-  //   title: "Project Three",
-  //   description: "A mobile-first responsive web design with modern animations",
-  //   tags: ["HTML", "CSS", "JavaScript"],
-  //   link: "https://github.com/yourusername/project-three",
-  // },
-  // {
-  //   title: "Project Four",
-  //   description: "A RESTful API for managing user data and authentication",
-  //   tags: ["Node.js", "Express", "PostgreSQL", "JWT"],
-  //   link: "https://github.com/yourusername/project-four",
-  //   live: "https://project-four.example.com",
-  // },
-  // {
-  //   title: "Project Five",
-  //   description: "A real-time chat application using WebSockets",
-  //   tags: ["React", "Socket.io", "Node.js"],
-  //   link: "https://github.com/yourusername/project-five",
-  //   live: "https://project-five.example.com",
-  // },
-  // {
-  //   title: "Project Six",
-  //   description: "A command-line tool for automating development workflows",
-  //   tags: ["Node.js", "CLI", "Automation"],
-  //   link: "https://github.com/yourusername/project-six",
-  // },
+	{
+		title: "CurrencyRate MCP Server",
+		description: "Simple MCP server that provides currency exchange rates.",
+		tags: ["MCP", "Typescript"],
+		link: "https://github.com/TVSSSRIPAD/CurrencyRate-MCP",
+		live: "https://www.youtube.com/watch?v=mme-iBEw7mk",
+		date: "05/2025",
+	},
+	{
+		title: "OnlineEd - Virtual Classroom",
+		description:
+			"A virtual classroom website for intraction between Teachers and Student developed during Covid-19 pandemic.",
+		tags: ["React", "Azure CosmosDB", "NodeJs", "Express"],
+		link: "https://github.com/TVSSSRIPAD/OnlinEd",
+		live: null,
+		date: "07/2022",
+	},
+	{
+		title: "UNIMAS - University Management System",
+		description:
+			"A full-stack spring-boot application built for managing university data as part of DataBaseManagementSystem (DBMS) course at IIT Bhubaneswar.",
+		tags: ["Vanilla JS", "SpringBoot", "Oracle DB"],
+		link: "https://github.com/TVSSSRIPAD/Unimas",
+		live: null,
+		date: "08/2021",
+	},
+	{
+		title: "Basic FTP Server in C++",
+		description: "This was a project done as part of Computer Networks course during my undergrad.",
+		tags: ["C++"],
+		link: "https://github.com/TVSSSRIPAD/FTP",
+		date: "08/2021",
+	},
+	{
+		title: "C-Shell",
+		description: "Simple shell implementation in C that supports basic commands, piping, and redirection.",
+		tags: ["C"],
+		link: "https://github.com/TVSSSRIPAD/CShell",
+		date: "04/2021",
+	},
 ];
 
 export default function Projects() {
@@ -58,7 +57,6 @@ export default function Projects() {
         <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">My Projects</h1>
         <p className="mt-4 text-muted-foreground">
           A collection of my recent work and side projects.<br/>
-          🚧In Progress 🚧
         </p>
       </div>
 
@@ -79,7 +77,9 @@ export default function Projects() {
             <Card key={project.title} className="fade-in" style={{ animationDelay: `${index * 100}ms` }}>
               <CardHeader>
                 <CardTitle>{project.title}</CardTitle>
-                <CardDescription>{project.description}</CardDescription>
+                <CardDescription>
+                  {project.description}
+                </CardDescription>
               </CardHeader>
               <CardContent>
                 <div className="flex flex-wrap gap-2">
@@ -88,6 +88,11 @@ export default function Projects() {
                       {tag}
                     </Badge>
                   ))}
+                </div>
+                <div className="flex flex-wrap gap-4 my-4">
+                  <Badge key={project.date} variant="outline">
+                    {project.date}
+                  </Badge>
                 </div>
               </CardContent>
               <CardFooter className="flex gap-2">
@@ -135,6 +140,11 @@ export default function Projects() {
                     {tag}
                   </Badge>
                 ))}
+              </div>
+              <div className="flex flex-wrap gap-4 my-4">
+               <Badge key={project.date} variant="outline">
+                  {project.date}
+                </Badge>
               </div>
             </div>
           ))}

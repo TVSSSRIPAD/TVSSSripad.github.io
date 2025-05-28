@@ -10,8 +10,10 @@ export default function Home() {
           <h1 className="fade-in text-4xl font-semibold tracking-tighter sm:text-5xl md:text-6xl">
             Hello, I'm <span className="text-primary">Sripad</span>
           </h1>
-          <p className="fade-in fade-in-delay-1 max-w-[42rem] leading-normal text-muted-foreground sm:text-xl sm:leading-8">I'm a full-stack software developer with a passion for building modern web applications.
-Welcome to my portfolio.</p>
+          <p className="fade-in fade-in-delay-1 leading-normal text-muted-foreground sm:text-xl sm:leading-8">
+            I'm a full-stack software developer with a passion for building modern web applications. <br/>
+            Welcome to my portfolio.
+          </p>
           <div className="fade-in fade-in-delay-2 flex flex-wrap justify-center gap-4">
             <Button asChild>
               <Link to="/projects">View Projects</Link>
@@ -40,7 +42,8 @@ Welcome to my portfolio.</p>
               company: "Amazon",
               period: "2024 - Present",
               description: " - Working in Amazon Customer Service Capacity Planning Optimization team.<br> \
-               - Focused on building scalable solutions to optimize planning for CustomerServiceAgent Staffings."
+               - Developed microservice to automate calculation of current staffing data.<br> \
+               - Focused on building scalable solutions to optimize planning for CustomerService Agent staffings."
             }, {
               title: "Software Development Engineer - 1",
               company: "Amazon",
