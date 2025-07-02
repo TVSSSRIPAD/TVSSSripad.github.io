@@ -1,6 +1,6 @@
 
 import { useState } from "react";
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { ToggleGroup, ToggleGroupItem } from "@/components/ui/toggle-group";
 import { Grid2x2, List } from "lucide-react";
@@ -13,14 +13,16 @@ const posts = [
     description: "Exploring the black box of JVM garbage collection",
     category: "Java",
     readTime: "10 min read",
-    link: "https://sripad.bearblog.dev/garbage-collection/"
+    link: "/posts/garbage-collection",
+    bearBlogLink: "https://sripad.bearblog.dev/garbage-collection/"
   }, {
     title: "Introduction to Kotlin Coroutines",
     date: "April 10, 2025",
     description: "A beginner's guide to aysynchronous programming in Kotlin",
     category: "Kotlin",
     readTime: "5 min read",
-    link: "https://sripad.bearblog.dev/coroutines/"
+    link: "/posts/kotlin-coroutines",
+    bearBlogLink: "https://sripad.bearblog.dev/coroutines/"
   }
 ];
 

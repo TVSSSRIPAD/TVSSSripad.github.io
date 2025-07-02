@@ -53,7 +53,7 @@ export default function Home() {
                 - Streamlined appointment procurement workflow for Amazon Freight orders in OrderingWorkflow<br> \
                 - Was responsible for building feature of sidelining orders in Amazon Freight<br> \
                 - Designed and built a task management system for Amazon Freight operators<br> \
-                - Was completely responsible for devloping and launching marking website for <a style=\"color:blue;\" href=\"http://ship-freight.amazon.in/\">Amazon Freight India website</a><br> \
+                - Was completely responsible for devloping and launching marking website for <a style=\"color:orange;\" href=\"http://ship-freight.amazon.in/\">Amazon Freight India website</a><br> \
                 - Worked on backend systems for launching live tracking of orders in AmazonFreight website.<br> \
                 - Worked on migrating Shipment confirmation emails from legacy system to a modern event driven system.<br>"
             }, {
@@ -61,7 +61,7 @@ export default function Home() {
               company: "Amazon",
               period: "2021",
               description: "- Worked in ShipWithAmazon (Transportation) team.<br> \
-                - Worked on launching <a style=\"color:blue;\" href=\"https://shipping.amazon.it/\">  ShipWithAmazon in IT (italy) region.</a><br> \
+                - Worked on launching <a style=\"color:orange;\" href=\"https://shipping.amazon.it/\">  ShipWithAmazon in IT (italy) region.</a><br> \
                 - Was solely responsible for supporting creation of bulk shipments (from CSV) in ShipWithAmazon IT (italy) website.<br>"
             }, {
               title: "Software Engineer Intern",
